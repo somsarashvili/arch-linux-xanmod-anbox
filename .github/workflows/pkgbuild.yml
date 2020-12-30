@@ -24,7 +24,7 @@ jobs:
           uses: actions/checkout@v1
 
         - name: Arch Linux PKGBUILD builder action
-          uses: somsarashvili/arch-pkgbuild-builder@0
+          uses: somsarashvili/arch-pkgbuild-builder@1
           with:
             target: 'pkgbuild'
             pkgname: '/github/workspace'
